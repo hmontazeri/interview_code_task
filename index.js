@@ -1,5 +1,7 @@
+// get arguments from node process
 const args = process.argv.slice(2);
 
+// get requested consumption
 const consumption = args[0];
 
 // check if consumption parameter is a valid number
